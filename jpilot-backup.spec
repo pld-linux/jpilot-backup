@@ -8,9 +8,10 @@ Group:		Applications/Communications
 Source0:	http://jasonday.home.att.net/code/backup/%{name}-%{version}.tar.gz
 # Source0-md5:	2a8dc575f788501334ad33a71d53031e
 URL:		http://jasonday.home.att.net/code/backup/
-BuildRequires:	gtk+2-devel >= 1:2.0.0
+BuildRequires:	gtk+2-devel >= 1:2.0.3
 BuildRequires:	pilot-link-devel
 BuildRequires:	gdbm-devel
+BuildRequires:	pkgconfig
 Requires:	jpilot
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
