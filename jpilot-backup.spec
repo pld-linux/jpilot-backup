@@ -2,7 +2,7 @@ Summary:	A backup-plugin for jpilot
 Summary(pl):	Wtyczka obs³uguj±ca backup dla jpilota
 Name:		jpilot-backup
 Version:	0.51
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		Applications/Communications
 Source0:	http://jasonday.home.att.net/code/backup/%{name}-%{version}.tar.gz
