@@ -10,6 +10,7 @@ Source0:	http://jasonday.home.att.net/code/backup/%{name}-%{version}.tar.gz
 URL:		http://jasonday.home.att.net/code/backup/
 BuildRequires:	gtk+2-devel >= 2.0.0
 BuildRequires:	pilot-link-devel
+BuildRequires:	gdbm-devel
 Requires:	jpilot
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
