@@ -1,0 +1,11 @@
+--- jpilot-backup-0.53/configure.in~	2006-09-27 04:46:40.000000000 +0300
++++ jpilot-backup-0.53/configure.in	2007-01-23 01:45:43.000000000 +0200
+@@ -64,7 +64,7 @@
+ PILOT_LIBS="-lpisock"
+ 
+ if test $pilotlibs = no ; then
+-for pilot_libs in $pilot_prefix/lib /usr/lib /usr/local/lib/ \
++for pilot_libs in $pilot_prefix/lib $libdir /usr/lib /usr/local/lib/ \
+   /usr/extra/pilot/lib ; do
+    if test -r $pilot_libs/libpisock.so >/dev/null 2>&1 ; then
+       pilotlibs=yes
