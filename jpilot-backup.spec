@@ -1,12 +1,12 @@
 Summary:	A backup-plugin for jpilot
 Summary(pl):	Wtyczka obs³uguj±ca backup dla jpilota
 Name:		jpilot-backup
-Version:	0.51
+Version:	0.53
 Release:	1
 License:	GPL
 Group:		Applications/Communications
 Source0:	http://jasonday.home.att.net/code/backup/%{name}-%{version}.tar.gz
-# Source0-md5:	2a8dc575f788501334ad33a71d53031e
+# Source0-md5:	c8a3eefd3706d9614cb25f2bebf48ece
 URL:		http://jasonday.home.att.net/code/backup/
 BuildRequires:	gtk+2-devel >= 1:2.0.3
 BuildRequires:	pilot-link-devel
@@ -28,8 +28,7 @@ jpilot-Backup to wtyczka dla jpilota.
 
 %build
 # dont call any auto scripts - it's completly broken
-%configure \
-	--enable-gtk2
+%configure
 %{__make}
 
 %install
@@ -43,5 +42,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog INSTALL README TODO
+%doc ChangeLog README TODO
 %{_jpluginsdir}/*
