@@ -9,12 +9,12 @@ Source0:	http://jasonday.home.att.net/code/backup/%{name}-%{version}.tar.gz
 # Source0-md5:	c8a3eefd3706d9614cb25f2bebf48ece
 Patch0:		%{name}-lib64.patch
 URL:		http://jasonday.home.att.net/code/backup/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	gdbm-devel
 BuildRequires:	gtk+2-devel >= 1:2.0.3
 BuildRequires:	pilot-link-devel
 BuildRequires:	pkgconfig
-BuildRequires:	autoconf
-BuildRequires:	automake
 Requires:	jpilot
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
