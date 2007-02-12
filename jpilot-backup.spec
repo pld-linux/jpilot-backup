@@ -1,5 +1,5 @@
 Summary:	A backup-plugin for jpilot
-Summary(pl):	Wtyczka obs³uguj±ca backup dla jpilota
+Summary(pl.UTF-8):   Wtyczka obsÅ‚ugujÄ…ca backup dla jpilota
 Name:		jpilot-backup
 Version:	0.53
 Release:	2
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 jpilot-Backup is a plugin for jpilot.
 
-%description -l pl
+%description -l pl.UTF-8
 jpilot-Backup to wtyczka dla jpilota.
 
 %prep
