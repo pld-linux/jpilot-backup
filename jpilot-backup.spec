@@ -28,7 +28,7 @@ jpilot-Backup to wtyczka dla jpilota.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__aclocal}
